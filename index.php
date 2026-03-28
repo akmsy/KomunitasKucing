@@ -14,20 +14,24 @@
     <!-- Home Page -->
     <div class="hero-section m-5">
         <h1 class="fst-italic mb-3">Selamat Datang di Komunitas Kucing</h1>
-        <div class="hero-content mb-3">
-            <img class="border border-5 rounded-5 border-warning" src="kucing.jpg" alt="foto-kucing">
-            <p class="text-danger mt-3">Kucing adalah hewan mamalia kecil yang dikenal dengan sifatnya yang licah, anggun, dan penuh rasa ingin tahu. Tubuhnya lentur dengan bulu lembut yang beragam warna, serta mata tajam yang mampu melihat jelas di kondisi minim cahaya. Kucing termasuk hewan karnivora, namun dapat beradaptasi hidup bersama manusia sebagai hewan peliharaan. Mereka memiliki kebiasaan mencakar untuk menandai wilayah, merawat diri dengan menjilat bulunya, serta tidur dalam waktu lama, bisa mencaai 12-16 jam per hari. Kucing sering dianggap membawa kenyamanan dan kasih sayang, sehingga menjadi salah satu hewan peliharaan paling populer di dunia.</p>
-
-            <p class="text-primary">Kucing seperti anjing termasuk hewan penyayang. Riseg yang dilakukan scientificamerican mengungkapkan kucing mempelajari sendiri cara mengeluarkan bunyi meow yang bisa menarik perhatian manusia. Berikut Macam-Macam Kucing:</p>
-
-            <h3>Jenis-Jenis Kucing:</h3>
-            <ol>
-                <li>Kucing Garong</li>
-                <li>Kucing Mainan</li>
-                <li>Kucing Tuan Muda</li>
-                <li>Kucing Nakal</li>
-                <li>dll.</li>
-            </ol>
+        <div class="hero-content mb-3 d-flex">
+            <div class="flex-shrink-0">
+                <img class="border border-5 rounded-5 border-warning" src="kucing.jpg" alt="foto-kucing">
+            </div>
+            <div class="flex-grow-1 ms-3">
+                <p class="text-danger mt-3">Kucing adalah hewan mamalia kecil yang dikenal dengan sifatnya yang licah, anggun, dan penuh rasa ingin tahu. Tubuhnya lentur dengan bulu lembut yang beragam warna, serta mata tajam yang mampu melihat jelas di kondisi minim cahaya. Kucing termasuk hewan karnivora, namun dapat beradaptasi hidup bersama manusia sebagai hewan peliharaan. Mereka memiliki kebiasaan mencakar untuk menandai wilayah, merawat diri dengan menjilat bulunya, serta tidur dalam waktu lama, bisa mencaai 12-16 jam per hari. Kucing sering dianggap membawa kenyamanan dan kasih sayang, sehingga menjadi salah satu hewan peliharaan paling populer di dunia.</p>
+    
+                <p class="text-primary">Kucing seperti anjing termasuk hewan penyayang. Riset yang dilakukan scientificamerican mengungkapkan kucing mempelajari sendiri cara mengeluarkan bunyi meow yang bisa menarik perhatian manusia. Berikut Macam-Macam Kucing:</p>
+    
+                <h3>Jenis-Jenis Kucing:</h3>
+                <ol>
+                    <li>Kucing Garong</li>
+                    <li>Kucing Mainan</li>
+                    <li>Kucing Tuan Muda</li>
+                    <li>Kucing Nakal</li>
+                    <li>dll.</li>
+                </ol>
+            </div>
         </div>
 
 
