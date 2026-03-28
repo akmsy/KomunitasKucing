@@ -18,7 +18,7 @@
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
                     <a class="nav-link" href="index.php">Home</a>
-                    <a class="nav-link" href="daftar.php">Daftar</a>
+                    <a class="nav-link" href="login.php">Daftar</a>
                     <a class="nav-link" href="design.php">Design</a>
                 </div>
             </div>
