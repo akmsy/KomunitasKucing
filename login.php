@@ -12,8 +12,8 @@
     <?php include 'navbar.php' ?>
 
     <!-- Daftar Page -->
-    <div class="hero-section">
-        <h1 class="text-center mt-5 fw-bold">Pendaftaran Komunitas Kucing</h1>
+    <div class="hero-section m-5">
+        <h1 class="text-center fw-bold">Pendaftaran Komunitas Kucing</h1>
     </div>
     <form action="design.php" method="POST" class="bg-light m-5 p-5">
         <div class="row mb-3">
