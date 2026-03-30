@@ -7,7 +7,7 @@ $tglLahir = $_POST['tglLahir'];
 $kelUmur= $_POST['kelUmur'];
 $jnsKel = $_POST['jnsKel'];
 $hobi = $_POST['hobi'];
-$query = "INSERT INTO anggota (id, nama, tglLahir, kelUmur, jnsKel, hobi) VALUES ('', '$nama', '$tglLahir', '$kelUmur', '$jnsKel', '$hobi')";
+$query = "INSERT INTO anggota (nama, tglLahir, kelUmur, jnsKel, hobi) VALUES ('$nama', '$tglLahir', '$kelUmur', '$jnsKel', '$hobi')";
 
 $result = mysqli_query($koneksi, $query);
 
