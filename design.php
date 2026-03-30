@@ -3,8 +3,8 @@
     include "koneksi.php";
 
     if (!isset($_SESSION['loged_in']) || $_SESSION['loged_in'] !== true){
-    header('Location: index.php');
-    exit();
+        header('Location: index.php');
+        exit();
     }
 ?>
 
