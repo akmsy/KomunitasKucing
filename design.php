@@ -3,6 +3,7 @@
     include "koneksi.php";
 
     if (!isset($_SESSION['loged_in']) || $_SESSION['loged_in'] !== true){
+        $_SESSION['login_error'] = "Silahkan daftar terlebih dahulu!";    
         header('Location: index.php');
         exit();
     }
