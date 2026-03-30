@@ -27,7 +27,7 @@
         <div class="hero-content mx-auto p-2 text-center">
             <h1 class="fst-italic mb-3">Design Laboratory</h1>
             <figcaption>Image Effects</figcaption>
-            <img class="mx-auto d-block" src="kucing.jpg" alt="foto-kucing">
+            <img class="mx-auto d-block w-25" src="kucing.jpg" alt="foto-kucing">
         </div>
      </div>
 </body>

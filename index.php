@@ -26,11 +26,11 @@
             }
         ?>
         <h1 class="fst-italic mb-3">Selamat Datang di Komunitas Kucing</h1>
-        <div class="hero-content mb-3 d-flex">
-            <div class="flex-shrink-0">
-                <img class="border border-5 rounded-5 border-warning" src="kucing.jpg" alt="foto-kucing">
+        <div class="hero-content row g-0 align-items-start">
+            <div class="col-md-3">
+                <img class="border border-5 img-fluid rounded-5 border-warning" src="kucing.jpg" alt="foto-kucing">
             </div>
-            <div class="flex-grow-1 ms-3">
+            <div class="col-md-9 ps-4">
                 <p class="text-danger mt-3">Kucing adalah hewan mamalia kecil yang dikenal dengan sifatnya yang licah, anggun, dan penuh rasa ingin tahu. Tubuhnya lentur dengan bulu lembut yang beragam warna, serta mata tajam yang mampu melihat jelas di kondisi minim cahaya. Kucing termasuk hewan karnivora, namun dapat beradaptasi hidup bersama manusia sebagai hewan peliharaan. Mereka memiliki kebiasaan mencakar untuk menandai wilayah, merawat diri dengan menjilat bulunya, serta tidur dalam waktu lama, bisa mencaai 12-16 jam per hari. Kucing sering dianggap membawa kenyamanan dan kasih sayang, sehingga menjadi salah satu hewan peliharaan paling populer di dunia.</p>
     
                 <p class="text-primary">Kucing seperti anjing termasuk hewan penyayang. Riset yang dilakukan scientificamerican mengungkapkan kucing mempelajari sendiri cara mengeluarkan bunyi meow yang bisa menarik perhatian manusia. Berikut Macam-Macam Kucing:</p>
@@ -46,7 +46,7 @@
             </div>
         </div>
 
-
-        <a class="btn btn-primary" href="wolipop.detik.com" role="button">Informasi Lebih Lanjut</a>
+        <br>
+        <a class="btn btn-primary" href="https://wolipop.detik.com" target="_blank" role="button">Informasi Lebih Lanjut</a>
 </body>
 </html>
