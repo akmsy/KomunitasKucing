@@ -20,7 +20,7 @@
         <h1 class="text-center fw-bold">Pendaftaran Komunitas Kucing</h1>
     </div>
 
-    <form action="proses_login.php" method="POST" class="bg-light m-5 p-5">
+    <form action="proses_login.php" method="POST" class="bg-light m-5 p-5 w-75 mx-auto">
         <div class="row mb-3">
             <label for="nama" class="col-sm-2 col-form-label">Nama Lengkap</label>
             <div class="col-sm-10">
