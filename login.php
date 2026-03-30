@@ -1,3 +1,7 @@
+<?php 
+    session_start();
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -15,7 +19,8 @@
     <div class="hero-section m-5">
         <h1 class="text-center fw-bold">Pendaftaran Komunitas Kucing</h1>
     </div>
-    <form action="design.php" method="POST" class="bg-light m-5 p-5">
+
+    <form action="proses_login.php" method="POST" class="bg-light m-5 p-5">
         <div class="row mb-3">
             <label for="nama" class="col-sm-2 col-form-label">Nama Lengkap</label>
             <div class="col-sm-10">
@@ -33,11 +38,11 @@
         <div class="row mb-3">
             <label for="kelUmur" class="col-sm-2 col-form-label">Kelompok Umur</label>
             <div class="col-sm-10">
-                <select class="form-select rounded" id="">
+                <select class="form-select rounded" id="kelUmur" name="kelUmur">
                     <option selected>Pilih kelompok umur</option>
-                    <option value="anak-anak">Anak-anak</option>
-                    <option value="remaja">Remaja</option>
-                    <option value="dewasa">Dewasa</option>
+                    <option value="Anak-anak">Anak-anak</option>
+                    <option value="Remaja">Remaja</option>
+                    <option value="Dewasa">Dewasa</option>
                 </select>
             </div> 
         </div>

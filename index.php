@@ -1,3 +1,7 @@
+<?php
+    session_start();
+    include "koneksi.php";
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -13,6 +17,14 @@
 
     <!-- Home Page -->
     <div class="hero-section m-5">
+        <?php
+            if (isset($_SESSION['login_error'])){
+                echo '<div class = "error-message show">';
+                echo htmlspecialchars($_SESSION['login_error']);
+                echo'</div>';
+                unset($_SESSION['login_error']);
+            }
+        ?>
         <h1 class="fst-italic mb-3">Selamat Datang di Komunitas Kucing</h1>
         <div class="hero-content mb-3 d-flex">
             <div class="flex-shrink-0">
