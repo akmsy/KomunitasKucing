@@ -2,6 +2,7 @@
 latihan kuis Praktikum Pemrograman Web Dasar
 
 Database yang digunakan -> komunitas_kucing. Dengan tabel anggota
+
 Sudah saya cantumkan tabel structure di anggota.sql
 
 atau bisa masukkan query di phpMyAdmin
