@@ -13,6 +13,7 @@
 </head>
 <body>
     <!-- Navbar -->
+    <?php $page = 'home'; ?>
     <?php include 'navbar.php' ?>
 
     <!-- Home Page -->

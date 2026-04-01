@@ -20,6 +20,7 @@
 </head>
 <body>
     <!-- Navbar -->
+    <?php $page = 'design'; ?>
     <?php include 'navbar.php' ?>
 
     <!-- Design Page -->

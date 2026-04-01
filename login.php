@@ -13,6 +13,7 @@
 </head>
 <body>
     <!-- Navbar -->
+    <?php $page = 'login'; ?>
     <?php include 'navbar.php' ?>
 
     <!-- Daftar Page -->
