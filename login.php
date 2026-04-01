@@ -82,5 +82,8 @@
             <button class="btn btn-success" type="submit" value="kirim">KIRIM PENDAFTARAN</button>
         </div>
     </form>
+
+    <!-- Footer -->
+    <?php include 'footer.php' ?>
 </body>
 </html>

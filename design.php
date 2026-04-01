@@ -23,12 +23,15 @@
     <?php include 'navbar.php' ?>
 
     <!-- Design Page -->
-     <div class="hero-section m-5">
+    <div class="hero-section m-5">
         <div class="hero-content mx-auto p-2 text-center">
             <h1 class="fst-italic mb-3">Design Laboratory</h1>
             <figcaption>Image Effects</figcaption>
             <img class="mx-auto d-block w-25" src="kucing.jpg" alt="foto-kucing">
         </div>
-     </div>
+    </div>
+
+    <!-- Footer -->
+    <?php include 'footer.php' ?>
 </body>
 </html>

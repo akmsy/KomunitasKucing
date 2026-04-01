@@ -48,5 +48,9 @@
 
         <br>
         <a class="btn btn-primary" href="https://wolipop.detik.com" target="_blank" role="button">Informasi Lebih Lanjut</a>
+    </div>
+    
+    <!-- Footer -->
+    <?php include 'footer.php' ?>
 </body>
 </html>
